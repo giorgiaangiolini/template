@@ -1,0 +1,41 @@
+   @font-face {
+    font-family: 'SpeziaMedium';
+    src: url('../images/content/SpeziaSerifWeb-MediumA.woff2') format('woff2'), /* Modern Browsers */
+         url('../images/content/SpeziaSerifWeb-MediumA.woff') format('woff'); /* Modern Browsers */
+       
+    font-style: normal;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'SpeziaRegular';
+  src: url('../images/content/SpeziaSerifWeb-RegularA.woff2') format('woff2'), /* Modern Browsers */
+       url('../images/content/SpeziaSerifWeb-RegularItalicA.woff') format('woff'); /* Modern Browsers */
+     
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'SpeziaItalic';
+  src: url('../images/content/SpeziaSerifWeb-RegularItalicA.woff2') format('woff2'), /* Modern Browsers */
+       url('../images/content/SpeziaSerifWeb-RegularItalicA.woff') format('woff'); /* Modern Browsers */
+     
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Apercu';
+  src: url('../images/content/Apercu-Medium.woff') format('woff'); /* Modern Browsers */
+     
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+
+

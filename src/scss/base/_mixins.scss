@@ -1,0 +1,72 @@
+
+$fh1: 26px;
+$f30: 30px;
+$f24: 22px;
+$f20: 20px;
+$f15: 15px;
+$f12: 12px;
+
+$header_height: 70px;
+$margin: 45px;
+$letterspacing: 0.14em;
+
+
+
+$black: #000000;
+
+$spacing15: 15px;
+$spacing30: 30px; 
+
+$speziaMedium: 'SpeziaMedium';
+$speziaRegular: 'SpeziaRegular';
+$speziaItalic: 'SpeziaItalic';
+$apercu: 'Apercu';
+
+.d-flex{display: flex}
+.align-center{align-items: center}
+.col{width:50%}
+.justify-center{justify-content: center;}
+
+
+a:hover{
+  opacity: 70%;
+}
+
+
+// %cover {
+//   height: 100%;
+//   left: 0;
+//   position: absolute;
+//   top: 0;
+//   width: 100%;
+// }
+
+// %center {
+//   align-items: center;
+//   display: flex;
+//   justify-content: center;
+// }
+
+// @mixin ratio ($height, $width) {
+//   font-size: 0;
+//   overflow: hidden;
+//   position: relative;
+
+//   &:after {
+//     content: '';
+//     display: inline-block;
+//     padding-top: $width / $height * 100%;
+//     width: 100%;
+//   }
+// }
+
+
+// @function z($name) {
+//   @if index($z-indexes, $name) {
+//     @return (length($z-indexes) - index($z-indexes, $name)) + 1;
+//   } @else {
+//     @warn 'There is no item "#{$name}" in this list; Choose one of: #{$z-indexes}';
+
+//     @return null;
+//   }
+// }
